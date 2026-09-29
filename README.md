@@ -227,11 +227,11 @@ The null service returns mock URLs, a stub JWT token (`"mock-id-token"`), and al
 
 ---
 
-## Migrating from Tahakom
+## Migrating
 
 If you're replacing the in-project Nafath OIDC service with this package:
 
-| Before (Tahakom)                                              | After (Azm.NafathOidc)                        |
+| Before                                                        | After (Azm.NafathOidc)                        |
 |---------------------------------------------------------------|-----------------------------------------------|
 | `Azm.Tahakom.Application.Interfaces.Auth.INafathOidcService`  | `Azm.NafathOidc.INafathOidcService`           |
 | `Azm.Tahakom.Domian.Models.Auth.*`                            | `Azm.NafathOidc.Models.*`                     |
